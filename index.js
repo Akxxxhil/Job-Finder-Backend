@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 4000;
 const app = express();
 
 const corsOptions = {
-    origin: 'http://localhost:3000',  // Your frontend URL
+    origin: 'https://job-finder-frontend-omega.vercel.app/',  // Your frontend URL
     optionsSuccessStatus: 200
 };
 
